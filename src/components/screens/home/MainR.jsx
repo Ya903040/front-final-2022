@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Game from "./pages/Game";
 import Country from "./pages/Country";
 import ErrorPage from "./pages/ErrorPage";
-import './style/style.css';
+import './pages/style/style.css';
 
 const MainR = () => {
     return <Router>
@@ -26,7 +26,7 @@ const MainR = () => {
 
         <footer>
             <div>
-                <p>footer</p>
+                <p className='text-center' id='copyRight'>&copy; 2022 Yasirov Suleiman</p>
             </div>
         </footer>
     </Router>;
