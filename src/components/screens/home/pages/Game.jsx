@@ -3,9 +3,7 @@ import Board from './gameThings/Board'
 import './style/style.css'
 
 class Game extends React.Component {
-    /**
-     * Initial state of the game
-     */
+
     initialize = () => {
         return {
             history: [
@@ -47,24 +45,13 @@ class Game extends React.Component {
     };
 
     handleClick = i => {
-        /**
-         * If we jumped to some previous step, and then make
-         * a new move from that point, we throw away all "future"
-         * history that will now become irrelevant.
-         *
-         * slice(startingPoint, endPoint)
-         *
-         * startingPoint - Array index from where the "slicing" starts.
-         * endPoint - All array indices less than endPoint will be included in "slicing"
-         */
+
         const history = this.state.history.slice(0, this.state.stepNumber + 1);
         const current = history[history.length - 1];
         const squares = current.squares.slice();
         const columns = 3;
 
-        /**
-         * Calculate location of square when clicked
-         */
+
         const col = Math.floor(i % columns) + 1;
         const row = Math.floor(i / columns) + 1;
 
@@ -74,10 +61,7 @@ class Game extends React.Component {
 
         squares[i] = this.state.xIsNext ? "X" : "O";
 
-        /**
-         * concat() method does not mutate the Array
-         * unlike Array.push().
-         */
+
         this.setState(prevState => ({
             history: history.concat([
                 {

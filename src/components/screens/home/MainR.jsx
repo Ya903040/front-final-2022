@@ -9,11 +9,11 @@ import './pages/style/style.css';
 
 const MainR = () => {
     return <Router>
-        <nav id='navBar' >
-            <Link to ='/front-final-2022/' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >home</Link>
-            <Link to ='/front-final-2022/about/' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >about</Link>
-            <Link to ='/front-final-2022/game' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >game</Link>
-            <Link to ='/front-final-2022/country' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >country</Link>
+        <nav id='navBar' className='bg-stone_flag_blur bg-center bg-contain ' >
+            <Link to ='/front-final-2022/' className='text-black hover:text-purple-800 transition-colors easy-in-out duration-300' >home</Link>
+            <Link to ='/front-final-2022/about/' className='text-black hover:text-purple-800 transition-colors easy-in-out duration-300' >about</Link>
+            <Link to ='/front-final-2022/game' className='text-black hover:text-purple-800 transition-colors easy-in-out duration-300' >game</Link>
+            <Link to ='/front-final-2022/country' className='text-black hover:text-purple-800 transition-colors easy-in-out duration-300' >country</Link>
         </nav>
 
         <Routes>
