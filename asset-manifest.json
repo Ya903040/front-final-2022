@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/front-final-2022/static/css/main.3180f028.css",
-    "main.js": "/front-final-2022/static/js/main.3509b671.js",
+    "main.css": "/front-final-2022/static/css/main.35e3a9aa.css",
+    "main.js": "/front-final-2022/static/js/main.b5a04ae1.js",
+    "static/media/logo_flag.png": "/front-final-2022/static/media/logo_flag.cbe7fe15422951b2573f.png",
+    "static/media/stone_flag_blur.jpg": "/front-final-2022/static/media/stone_flag_blur.a4df26bd419c1f5b98d4.jpg",
+    "static/media/alatoo_logo.jpg": "/front-final-2022/static/media/alatoo_logo.82d19a071c87921917bf.jpg",
     "index.html": "/front-final-2022/index.html",
-    "main.3180f028.css.map": "/front-final-2022/static/css/main.3180f028.css.map",
-    "main.3509b671.js.map": "/front-final-2022/static/js/main.3509b671.js.map"
+    "main.35e3a9aa.css.map": "/front-final-2022/static/css/main.35e3a9aa.css.map",
+    "main.b5a04ae1.js.map": "/front-final-2022/static/js/main.b5a04ae1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3180f028.css",
-    "static/js/main.3509b671.js"
+    "static/css/main.35e3a9aa.css",
+    "static/js/main.b5a04ae1.js"
   ]
 }
