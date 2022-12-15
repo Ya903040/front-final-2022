@@ -10,17 +10,17 @@ import './style/style.css';
 const MainR = () => {
     return <Router>
         <nav id='navBar' >
-            <Link to ='/' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >home</Link>
-            <Link to ='/game' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >game</Link>
-            <Link to ='/country' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >country</Link>
-            <Link to ='/about' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >about</Link>
+            <Link to ='/front-final-2022/' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >home</Link>
+            <Link to ='/front-final-2022/about/' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >about</Link>
+            <Link to ='/front-final-2022/game' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >game</Link>
+            <Link to ='/front-final-2022/country' className='text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300' >country</Link>
         </nav>
 
         <Routes>
-            <Route path='/' element=<Home/> />
-            <Route path='/about' element=<About/> />
-            <Route path='/game' element=<Game/> />
-            <Route path='/country' element=<Country/> />
+            <Route path='/front-final-2022/' element=<Home/> />
+            <Route path='/front-final-2022/about' element=<About/> />
+            <Route path='/front-final-2022/game' element=<Game/> />
+            <Route path='/front-final-2022/country' element=<Country/> />
             <Route path='*' element=<ErrorPage/>/>
         </Routes>
 
