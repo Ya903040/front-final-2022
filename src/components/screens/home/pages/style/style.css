@@ -99,3 +99,42 @@
 #copyRight{
     font-size: 2rem;
 }
+
+#country_back{
+    background-image: url("../../../../../assets/images/broke_flag.jpg") ;
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.block * {
+    position: relative;
+}
+.block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    box-shadow: 1px 1px 4px rgba(14, 14, 14, 0.3);
+    border: 15px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    text-shadow: 0 1px 2px #000;
+    color: #fff;
+    background: inherit;
+}
+
+.block:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: inherit;
+    filter: blur(10px);
+}
