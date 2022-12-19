@@ -10,15 +10,15 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     display: grid;
     padding: 0.8rem;
-    font-weight: bold;
-    font-style: italic;
+/*    font-weight: bold;
+    font-style: italic;*/
 
 
 }
 
 
 .App-logo {
-    height: 40vmin;
+    height: 13vmin;
     pointer-events: none;
 
     animation: App-logo-spin infinite 20s linear;
@@ -118,13 +118,13 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     box-shadow: 1px 1px 4px rgba(14, 14, 14, 0.3);
     border: 15px solid rgba(255, 255, 255, 0.15);
     border-radius: 15px;
     text-shadow: 0 1px 2px #000;
-    color: #fff;
+
     background: inherit;
 }
 
@@ -136,5 +136,5 @@
     bottom: 0;
     right: 0;
     background: inherit;
-    filter: blur(10px);
+    filter: blur(5px);
 }

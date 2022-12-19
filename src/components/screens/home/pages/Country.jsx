@@ -1,5 +1,4 @@
 import React from "react";
-import usa_logo from "../../../../assets/images/logo_flag.png";
 import './style/style.css';
 const Country = () => {
     return(
@@ -14,7 +13,6 @@ const Country = () => {
                 <p className='pt-3 text-2xl'>3-)It was in the USA that the first mass-produced car was produced and the Internet was invented.</p>
 
 
-                <img className='App-logo pt-3' src={usa_logo} alt="usa_logo"/>
             </div>
 
 

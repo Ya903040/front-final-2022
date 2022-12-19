@@ -161,35 +161,41 @@ class Game extends React.Component {
         return (
             <div className="game flex h-screen justify-center items-center text-xl bg-country_flag " style={{
                 fontWeight: 'bold',
-                fontStyle: 'italic'
+                fontStyle: 'italic',
+                display: 'flex',
+                minHeight: '100vh',
+                position: 'relative',
+                overflowy: 'scroll',
             }}>
-                {
-                    gameStatus === "draw" ? (
-                        <div className="draw text-4xl text-center">
-                            <h2>Draw!</h2>
-                            <button onClick={() => this.reset()} className='p-2 border-solid border-2 border-sky-500 rounded-xl text-4xl'>Play again</button>
-                        </div>
-                    ) : (
+               <div className='block'>
+                   {
+                       gameStatus === "draw" ? (
+                           <div className="draw text-4xl text-center">
+                               <h2>Draw!</h2>
+                               <button onClick={() => this.reset()} className='p-2 border-solid border-2 border-sky-500 rounded-xl text-4xl'>Play again</button>
+                           </div>
+                       ) : (
 
-                        <div className="game-board">
-                            <Board
-                                squares={current.squares}
-                                winningSquares={gameStatus === "win" ? result.win.squares : []}
-                                onClick={(i, col, row) => this.handleClick(i, col, row)}
-                            />
-                            {
-                                gameStatus === "win" ? (
-                                    <div className="win">
-                                        <h2 className='p-3 text-3xl'>{`"${result.win.player}" is winner!`} </h2>
-                                        <button onClick={() => this.reset()} className='p-2 border-solid border-2 border-sky-500 rounded-xl text-4xl'>Play again</button>
-                                    </div>
-                                ) : (
-                                    <div className="text-center ">
-                                        <button onClick={() => this.reset()} className=' p-5 text-3xl text-black hover:text-white transition-colors easy-in-out duration-300'>Reset game</button>
-                                    </div>
-                                )}
-                        </div>
-                    )}
+                           <div className="game-board">
+                               <Board
+                                   squares={current.squares}
+                                   winningSquares={gameStatus === "win" ? result.win.squares : []}
+                                   onClick={(i, col, row) => this.handleClick(i, col, row)}
+                               />
+                               {
+                                   gameStatus === "win" ? (
+                                       <div className="win">
+                                           <h2 className='p-3 text-3xl'>{`"${result.win.player}" is winner!`} </h2>
+                                           <button onClick={() => this.reset()} className='p-2 border-solid border-2 border-sky-500 rounded-xl text-4xl'>Play again</button>
+                                       </div>
+                                   ) : (
+                                       <div className="text-center ">
+                                           <button onClick={() => this.reset()} className=' p-5 text-3xl text-black hover:text-white transition-colors easy-in-out duration-300'>Reset game</button>
+                                       </div>
+                                   )}
+                           </div>
+                       )}
+               </div>
 
 
             </div>
