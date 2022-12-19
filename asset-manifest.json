@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/front-final-2022/static/css/main.618e88a9.css",
-    "main.js": "/front-final-2022/static/js/main.e790f895.js",
+    "main.css": "/front-final-2022/static/css/main.fa610870.css",
+    "main.js": "/front-final-2022/static/js/main.96504849.js",
     "static/media/logo_flag.png": "/front-final-2022/static/media/logo_flag.cbe7fe15422951b2573f.png",
+    "static/media/broke_flag.jpg": "/front-final-2022/static/media/broke_flag.7f22e85d096add3579c0.jpg",
     "static/media/country_flag.jpg": "/front-final-2022/static/media/country_flag.17e2c451043a409addae.jpg",
     "static/media/stone_flag_blur.jpg": "/front-final-2022/static/media/stone_flag_blur.a4df26bd419c1f5b98d4.jpg",
     "static/media/alatoo_logo.jpg": "/front-final-2022/static/media/alatoo_logo.82d19a071c87921917bf.jpg",
+    "static/media/common_flag.png": "/front-final-2022/static/media/common_flag.6a9e6e41a35445543b9d.png",
     "index.html": "/front-final-2022/index.html",
-    "main.618e88a9.css.map": "/front-final-2022/static/css/main.618e88a9.css.map",
-    "main.e790f895.js.map": "/front-final-2022/static/js/main.e790f895.js.map"
+    "main.fa610870.css.map": "/front-final-2022/static/css/main.fa610870.css.map",
+    "main.96504849.js.map": "/front-final-2022/static/js/main.96504849.js.map"
   },
   "entrypoints": [
-    "static/css/main.618e88a9.css",
-    "static/js/main.e790f895.js"
+    "static/css/main.fa610870.css",
+    "static/js/main.96504849.js"
   ]
 }
