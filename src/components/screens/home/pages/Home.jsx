@@ -8,14 +8,14 @@ const Home = () => {
                 <p className="text-center justify-center text-4xl">
                     this is home page
                 </p>
+
                 <iframe style={{
-                    width: '80%',
-                    height: '80%',
+                    width: '100%',
+                    height: '100%',
                     textAlign: 'center',
-                }} className='aspect-video md:container md:mx-auto' id='rick_roll' src="https://www.youtube.com/embed/1w432mbp2jQ"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen autoplay></iframe>
+                }} className='aspect-video md:container md:mx-auto' src="https://www.youtube.com/embed/1w432mbp2jQ?vq=hd1080&autoplay=1&fs=0&color=white&controls=0"
+                         title="cool boy"></iframe>
+
             </header>
 
 

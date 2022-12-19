@@ -17,7 +17,7 @@ const About = () => {
             </button>
             <p>hi everybody. My name is Suleiman.</p>
 
-            <div  >
+            <div >
                 <img className='App-logo' src={alatoo_logo} alt='alatoo_logo'/>
             </div>
 

@@ -159,7 +159,10 @@ class Game extends React.Component {
 
 
         return (
-            <div className="game flex h-screen justify-center items-center text-xl ">
+            <div className="game flex h-screen justify-center items-center text-xl bg-country_flag " style={{
+                fontWeight: 'bold',
+                fontStyle: 'italic'
+            }}>
                 {
                     gameStatus === "draw" ? (
                         <div className="draw text-4xl text-center">
@@ -177,12 +180,12 @@ class Game extends React.Component {
                             {
                                 gameStatus === "win" ? (
                                     <div className="win">
-                                        <h2 className='p-3'>{`"${result.win.player}" is winner!`} </h2>
+                                        <h2 className='p-3 text-3xl'>{`"${result.win.player}" is winner!`} </h2>
                                         <button onClick={() => this.reset()} className='p-2 border-solid border-2 border-sky-500 rounded-xl text-4xl'>Play again</button>
                                     </div>
                                 ) : (
                                     <div className="text-center ">
-                                        <button onClick={() => this.reset()} className=' p-5 text-3xl text-orange-900 hover:text-purple-800 transition-colors easy-in-out duration-300'>Reset game</button>
+                                        <button onClick={() => this.reset()} className=' p-5 text-3xl text-black hover:text-white transition-colors easy-in-out duration-300'>Reset game</button>
                                     </div>
                                 )}
                         </div>

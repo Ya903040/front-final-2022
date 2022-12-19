@@ -6,6 +6,7 @@
 #navBar{
     font-size: 3rem;
     text-align: center;
+    align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     display: grid;
     padding: 0.8rem;
@@ -19,8 +20,10 @@
 .App-logo {
     height: 40vmin;
     pointer-events: none;
+
     animation: App-logo-spin infinite 20s linear;
     margin: 0 auto;
+
 
 
 
