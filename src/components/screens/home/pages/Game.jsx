@@ -146,7 +146,7 @@ class Game extends React.Component {
             );
         });
 
-
+//test
         moves.sort((a, b) => {
             if (this.state.toggle) {
                 return b.key - a.key;
